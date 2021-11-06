@@ -80,6 +80,21 @@ const func = (array) => {
 }
 console.log(func(array));
 
+
+const array = [1,6,23,8,4,8,3,7];
+let number = null;
+
+const func = (array) => {
+    const tab = [];
+    for (array.length> 0){
+        let b = Math.floor(Math.random() * array.length)
+        number = array.splice(b,1);
+        tab.push(...number)
+    }
+    return tab
+}
+console.log(func(array));
+
 // Zadanie 10
 
 // Zadanie 11

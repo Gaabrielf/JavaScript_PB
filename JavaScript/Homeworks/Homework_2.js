@@ -61,7 +61,22 @@ let item = items[Math.floor(Math.random()*items.length)];
 console.log(item);
 
 
-// Zadanie 8 // nie rozumiem polecenia
+// Zadanie 8 
+
+const arr = [1, 6 ,23, 8, 4, 8, 3, 7];
+
+const randomLessNumber = (arr, item) => {
+let min = arr[0];
+for (let j = 0; j <item; j++) {
+    const random2 = Math.floor(Math.random() * arr.length);
+    if (min > arr[random2]) min = arr[random2];
+}
+return min;
+};
+
+let tabMin = randomLessNumber(arr, 4);
+console.log(tabMin);
+
 
 // Zadanie 9
 

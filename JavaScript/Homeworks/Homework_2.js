@@ -65,6 +65,21 @@ console.log(item);
 
 // Zadanie 9
 
+const array = [1,6,23,8,4,8,3,7];
+let number = null;
+const tab = [];
+const func = (array) => {
+    for (let i = array.length; i > 0; i--){
+        let min = 0;
+        let max = array.length;
+        let b = Math.floor(Math.random() * (max - min) + min)
+        number = array.splice(b,1);
+        tab.push(...number)
+    }
+    return tab
+}
+console.log(func(array));
+
 // Zadanie 10
 
 // Zadanie 11

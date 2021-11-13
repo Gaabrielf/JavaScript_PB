@@ -68,6 +68,6 @@
 //        y: 0,
 //     sum: function () {
 //     return this.x + this.y }
-// }};
+// };
 
 // arr.forEach(object => console.log(baseObject.sum.call(object)));

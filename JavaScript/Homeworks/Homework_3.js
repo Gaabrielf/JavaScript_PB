@@ -1,23 +1,23 @@
-// Zadanie 1.1
+// Zadanie 1
 
-let iifeg = (function () {
+// let iifeg = (function () {
 
-   return {
-      value: "",
-    setValue: function (x) {
-    this.value=x;
-    },
-    showValue: function () {
-      console.log(this.value); 
-          },
-     reverseValue: function () {
-      if (typeof(this.value)=="number"){
-          this.value*= -1;
-}
-        if (typeof(this.value)=="string"){
-           this.value = this.value.split("").reverse("").join("");
-        }}}
-})();
+//    return {
+//       value: "",
+//     setValue: function (x) {
+//     this.value=x;
+//     },
+//     showValue: function () {
+//       console.log(this.value); 
+//           },
+//      reverseValue: function () {
+//       if (typeof(this.value)=="number"){
+//           this.value*= -1;
+// }
+//         if (typeof(this.value)=="string"){
+//            this.value = this.value.split("").reverse("").join("");
+//         }}}
+// })();
 
 
 
@@ -63,13 +63,10 @@ let iifeg = (function () {
 //     {x:0,x:8}
 //     ];
 
-// for(i = 0; i < arr.length; i++) {
-//     let obj = arr[i];
-
 // let baseObject = 
 //     {  x,
 //        y,
-//        sum: function sum () {
+//     sum: function sum () {
 //     return this.x + this.y }
 // }}
 

@@ -11,7 +11,7 @@
 //       console.log(this.value); 
 //           },
 //      reverseValue: function () {
-//       if (typeof(this.value)=="number"){
+//       if (typeof(this.value)==Number){
 //           this.value*= -1;
 // }
 //         if (typeof(this.value)=="string"){
@@ -69,5 +69,8 @@
 //     sum: function sum () {
 //     return this.x + this.y }
 // }}
+
+// for(i = 0; i < arr.length; i++) {
+//     let obj = arr[i];
 
 // console.log(baseObject.sum());

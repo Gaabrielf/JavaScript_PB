@@ -1,67 +1,25 @@
 // Zadanie 1.1
 
-// let iife = (function () {
+let iifeg = (function () {
 
-// let obj = {
-//     val : 2,
-//     setValue: function () {
-//     let val = "mama";
-//     return this.val;
-//     },
-//     showValue: function () {
-//       let val = "mama";
-//       if (typeof val == "undefined") {
-//             return "Value is not defined";
-//           }
-//           return this.val; 
-//           },
-//      reverseValue: function () {
-//       let val = "mama";
-//       let newVal = "";
-//     for (let i = val.length - 1; i >= 0; i--) { 
-//         newVal += val[i];
-//     }
-//     return newVal; 
-// }}
-// })();
+   return {
+      value: "",
+    setValue: function (x) {
+    this.value=x;
+    },
+    showValue: function () {
+      console.log(this.value); 
+          },
+     reverseValue: function () {
+      if (typeof(this.value)=="number"){
+          this.value*= -1;
+}
+        if (typeof(this.value)=="string"){
+           this.value = this.value.split("").reverse("").join("");
+        }}}
+})();
 
-// console.log(iffe);
 
-// Zadanie 1.2
-
-// let result = (function () {
-//     let item = "mama";
-//     function setValue() {
-//      return this.item;
-//     }
-//     function showValue() {
-//      let item = "mama";
-//      if (typeof item == "undefined") {
-//       return "Value is not defined";
-//     }
-//     return this.item; 
-//     }
-//     function reverseValue() {
-//     let item = "mama";
-//     if (typeof item == Number) {
-//         return item*(-1);
-//           }
-//         function reverseString(){
-//         let newItem = "";
-//         for (i = item.length - 1; i >= 0; i--) { 
-//             newItem += item[i];
-//         }
-//         return newItem; 
-//           }}
-   
-//     return {
-//      setValue : setValue,
-//      showValue : showValue,
-//      reverseValue : reverseValue }
-//   })();
-  
-
-// console.log(iife);
 
 // Zadanie 2
 

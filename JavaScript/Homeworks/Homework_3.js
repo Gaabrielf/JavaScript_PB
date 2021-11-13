@@ -65,7 +65,7 @@
 
 // let baseObject = 
 //     {  x :0,
-//        y:0,
+//        y: 0,
 //     sum: function () {
 //     return this.x + this.y }
 // }};

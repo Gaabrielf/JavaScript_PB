@@ -12,7 +12,7 @@
 //           },
 //      reverseValue: function () {
 //      if (typeof val == "undefined") {
-//       return "Value is not defined"; }
+//       console.log("Value is not defined"); }
 //       if (typeof(this.value)==Number){
 //           this.value*= -1; }
 //         if (typeof(this.value)=="string"){

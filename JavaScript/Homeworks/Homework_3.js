@@ -64,13 +64,10 @@
 //     ];
 
 // let baseObject = 
-//     {  x,
-//        y,
-//     sum: function sum () {
+//     {  x :0,
+//        y:0,
+//     sum: function () {
 //     return this.x + this.y }
-// }}
+// }};
 
-// for(i = 0; i < arr.length; i++) {
-//     let obj = arr[i];
-
-// console.log(baseObject.sum());
+// arr.forEach(object => console.log(baseObject.sum.call(object)));

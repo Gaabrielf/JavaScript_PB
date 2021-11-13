@@ -70,4 +70,4 @@
 //     return this.x + this.y }
 // }}
 
-// console.log(baseObject);
+// console.log(baseObject.sum());

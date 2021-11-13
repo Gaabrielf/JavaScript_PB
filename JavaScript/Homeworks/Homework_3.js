@@ -7,16 +7,21 @@
 //     setValue: function (x) {
 //     this.value=x;
 //     },
+
 //     showValue: function () {
 //       console.log(this.value); 
 //           },
+
 //      reverseValue: function () {
 //      if (typeof val == "undefined") {
 //       console.log("Value is not defined"); }
+
 //       if (typeof(this.value)=="number"){
 //           this.value*= -1; }
+
 //         if (typeof(this.value)=="string"){
 //            this.value = this.value.split("").reverse("").join("");
+
 //         }}}
 // })();
 
